@@ -10,9 +10,9 @@ class Dato {
 		this._descripcion = descripcion;
 	}
 	get valor() {
-		return this.valor;
+		return this._valor;
 	}
 	set valor(valor) {
-		this.valor = valor;
+		this._valor = valor;
 	}
 }
